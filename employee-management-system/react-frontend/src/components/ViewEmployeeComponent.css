@@ -1,0 +1,41 @@
+.container {
+    max-width: 900px;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #f8f9fa;
+    border: none;
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #555;
+}
+
+.card-body div {
+    font-size: 1rem;
+    color: #000;
+}
+
+.shadow-lg {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}

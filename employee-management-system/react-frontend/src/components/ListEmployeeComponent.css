@@ -1,0 +1,49 @@
+.container {
+    max-width: 1200px;
+}
+
+.header-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.add-btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.table {
+    font-size: 1rem;
+}
+
+.table th {
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    font-weight: 600;
+}
+
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.action-buttons .btn {
+    padding: 5px 10px;
+    transition: transform 0.2s ease;
+}
+
+.action-buttons .btn:hover {
+    transform: scale(1.1);
+}
